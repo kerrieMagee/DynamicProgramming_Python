@@ -1,6 +1,6 @@
 def fib_memo(n, memo):
     """Fibonacci with memoisation (remembering the solutions to previously computed sub-problems
-    Time Complxity: Is O(n) - call to fib_memo is constant as each problem computed no more than
+    Time Complexity: Is O(n) - call to fib_memo is constant as each problem computed no more than
     once with n sub-problems
     """
 
