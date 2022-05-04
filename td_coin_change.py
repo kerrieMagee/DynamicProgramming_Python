@@ -7,6 +7,12 @@ def min(x, y):
 
 
 def td_coin_change(coins, v):
+    """Top down coin change 
+       Input: coins - list of length n denominations, v - value where v is the size of v 
+       Output: Least no of coins to make up a given value
+       Time Complexity: Since sub-problems our solved in v+1 sub problems and each tries all n coins O(n V)
+       Space Complexity: O(V) 
+       """
 
     memo = [None] * (v+1)
 
